@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формулы по физике (7-9 класс)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 50%, #e8f0fe 100%);
+            min-height: 100vh;
+            padding: 30px 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+        
+        h1 {
+            background: linear-gradient(135deg, #a8caba 0%, #c7ceea 100%);
+            color: #2c3e50;
+            text-align: center;
+            padding: 30px;
+            font-size: 2.2em;
+            font-weight: 300;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+        }
+        
+        .class-section {
+            margin: 30px;
+        }
+        
+        .class-title {
+            font-size: 1.8em;
+            color: #4a5568;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid;
+            position: relative;
+        }
+        
+        .class7 .class-title {
+            border-bottom-color: #fab1a0;
+        }
+        
+        .class8 .class-title {
+            border-bottom-color: #a8caba;
+        }
+        
+        .class9 .class-title {
+            border-bottom-color: #ffd93d;
+        }
+        
+        .topic {
+            margin: 25px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 15px;
+            border-left: 5px solid;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .topic7 {
+            border-left-color: #fab1a0;
+        }
+        
+        .topic8-thermal {
+            border-left-color: #a8caba;
+        }
+        
+        .topic8-electric {
+            border-left-color: #b8e6b1;
+        }
+        
+        .topic8-magnetic {
+            border-left-color: #f7d794;
+        }
+        
+        .topic9 {
+            border-left-color: #ffd93d;
+        }
+        
+        .topic h3 {
+            color: #2d3748;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+            font-weight: 500;
+        }
+        
+        .formula {
+            display: block;
+            font-size: 1.2em;
+            margin: 12px 0;
+            font-family: 'Courier New', monospace;
+            background: rgba(255, 255, 255, 0.5);
+            padding: 12px 18px;
+            border-radius: 10px;
+            border-left: 4px solid #e2e8f0;
+            line-height: 1.4;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.03);
+        }
+        
+        .highlight {
+            background: linear-gradient(90deg, #fff3cd 0%, #ffeaa7 100%);
+            border-left-color: #f39c12;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 10px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+                padding: 20px;
+            }
+            
+            .class-title {
+                font-size: 1.5em;
+            }
+            
+            .formula {
+                font-size: 1.1em;
+                padding: 10px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Формулы по физике<br><span style="font-size: 0.6em; font-weight: 300;">7-9 классы</span></h1>
+        
+        <div class="class-section class7">
+            <h2 class="class-title">7 класс</h2>
+            
+            <div class="topic topic7">
+                <h3>Введение. Взаимодействие тел. Давление. Работа. Энергия.</h3>
+                <div class="formula">l = n × l₀ — перевод единиц с приставками</div>
+                <div class="formula">v = s / t<br>s = v × t<br>t = s / v — равномерное движение</div>
+                <div class="formula">ρ = m / V<br>m = ρ × V<br>V = m / ρ — плотность</div>
+                <div class="formula">F<sub>тяж</sub> = m × g (g ≈ 9,8 м/с²)</div>
+                <div class="formula">F<sub>упр</sub> = k × Δl — закон Гука</div>
+                <div class="formula">P = F / S — давление</div>
+                <div class="formula">p = ρ × g × h — гидростатическое давление</div>
+                <div class="formula">F<sub>А</sub> = ρ<sub>жид</sub> × g × V<sub>погр</sub> — сила Архимеда</div>
+                <div class="formula">A = F × s — механическая работа</div>
+                <div class="formula">N = A / t или N = F × v — мощность</div>
+                <div class="formula">η = (A<sub>полез</sub> / A<sub>затр</sub>) × 100% — КПД</div>
+                <div class="formula highlight">E<sub>п</sub> = m × g × h — потенциальная энергия</div>
+                <div class="formula highlight">E<sub>к</sub> = m × v² / 2 — кинетическая энергия</div>
+                <div class="formula highlight">E = E<sub>к</sub> + E<sub>п</sub> = const — сохранение энергии</div>
+            </div>
+        </div>
+        
+        <div class="class-section class8">
+            <h2 class="class-title">8 класс</h2>
+            
+            <div class="topic topic8-thermal">
+                <h3>Тепловые явления</h3>
+                <div class="formula">Q = c × m × Δt — изменение температуры</div>
+                <div class="formula">Q = λ × m — плавление/кристаллизация</div>
+                <div class="formula">Q = r × m — парообразование/конденсация</div>
+                <div class="formula highlight">Q<sub>отд</sub> = Q<sub>получ</sub> — сохранение энергии</div>
+            </div>
+            
+            <div class="topic topic8-electric">
+                <h3>Электрические явления</h3>
+                <div class="formula">q = n × e (e ≈ 1,6×10⁻¹⁹ Кл)</div>
+                <div class="formula">F = k × |q₁q₂| / r² (k = 9×10⁹) — закон Кулона</div>
+                <div class="formula">I = q / t — сила тока</div>
+                <div class="formula">U = A / q — напряжение</div>
+                <div class="formula">I = U / R — закон Ома</div>
+                <div class="formula">R = ρ × l / S — сопротивление</div>
+                <div class="formula">Последовательное: R<sub>общ</sub> = R₁ + R₂ + …</div>
+                <div class="formula">Параллельное: 1/R<sub>общ</sub> = 1/R₁ + 1/R₂ + …</div>
+                <div class="formula">P = U × I = I² × R = U² / R — мощность</div>
+                <div class="formula">A = P × t = U × I × t — работа тока</div>
+            </div>
+            
+            <div class="topic topic8-magnetic">
+                <h3>Магнитные явления</h3>
+                <div class="formula">F = I × l × B × sinα — сила Ампера</div>
+                <div class="formula">Φ = B × S × cosα — магнитный поток</div>
+            </div>
+        </div>
+        
+        <div class="class-section class9">
+            <h2 class="class-title">9 класс</h2>
+            
+            <div class="topic topic9">
+                <h3>Механика</h3>
+                <div class="formula">v<sub>ср</sub> = Δr / Δt — средняя скорость</div>
+                <div class="formula">v = v₀ + a × t — равноускоренное движение</div>
+                <div class="formula">s = v₀ × t + (a × t²)/2 — путь</div>
+                <div class="formula">v² = v₀² + 2 × a × s — без времени</div>
+                <div class="formula">F = m × a — второй закон Ньютона</div>
+                <div class="formula">F = G × (m₁m₂) / r² — всемирное тяготение</div>
+                <div class="formula">p = m × v — импульс</div>
+                <div class="formula highlight">p₁ + p₂ = const — сохранение импульса</div>
+                <div class="formula">v = ω × r — линейная/угловая скорость</div>
+                <div class="formula">a<sub>ц</sub> = v² / r — центростремительное ускорение</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
